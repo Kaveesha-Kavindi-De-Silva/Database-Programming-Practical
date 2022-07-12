@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
@@ -19,6 +20,7 @@
             </Label>
          </children>
       </AnchorPane>
+      <JFXComboBox layoutX="75.0" layoutY="101.0" prefHeight="31.0" prefWidth="225.0" promptText="Student Id" />
       <JFXTextField layoutX="405.0" layoutY="99.0" prefHeight="31.0" prefWidth="225.0" promptText="Name" text="Student Name" />
       <JFXTextField layoutX="725.0" layoutY="101.0" prefHeight="31.0" prefWidth="225.0" promptText="Address" text="Email" />
       <JFXTextField layoutX="80.0" layoutY="176.0" prefHeight="31.0" prefWidth="225.0" promptText="Contact" />
@@ -52,6 +54,5 @@
       </JFXButton>
       <JFXTextField layoutX="405.0" layoutY="179.0" prefHeight="31.0" prefWidth="225.0" promptText="Contact" text="Address" />
       <JFXTextField layoutX="725.0" layoutY="179.0" prefHeight="31.0" prefWidth="225.0" promptText="Contact" text="NIC" />
-      <JFXTextField layoutX="70.0" layoutY="101.0" prefHeight="31.0" prefWidth="225.0" promptText="Name" text="Student Id" />
    </children>
 </AnchorPane>
