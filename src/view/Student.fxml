@@ -19,8 +19,8 @@
             </Label>
          </children>
       </AnchorPane>
-      <JFXTextField fx:id="txtName" layoutX="405.0" layoutY="99.0" prefHeight="31.0" prefWidth="225.0" promptText="Name" text="Student Name" />
-      <JFXTextField fx:id="txtEmail" layoutX="725.0" layoutY="101.0" prefHeight="31.0" prefWidth="225.0" promptText="Address" text="Email" />
+      <JFXTextField fx:id="txtName" layoutX="405.0" layoutY="99.0" prefHeight="31.0" prefWidth="225.0" promptText="Student Name" />
+      <JFXTextField fx:id="txtEmail" layoutX="725.0" layoutY="101.0" prefHeight="31.0" prefWidth="225.0" promptText="Email" />
       <JFXTextField fx:id="txtContact" layoutX="75.0" layoutY="176.0" prefHeight="31.0" prefWidth="225.0" promptText="Contact" />
       <TableView fx:id="tblStudent" layoutX="26.0" layoutY="339.0" prefHeight="417.0" prefWidth="919.0">
          <columns>
@@ -32,27 +32,24 @@
             <TableColumn prefWidth="128.0" text="NIC" />
          </columns>
       </TableView>
-      <Label layoutX="492.0" layoutY="283.0" prefHeight="42.0" prefWidth="135.0" style="-fx-background-color: #1bdd55;" />
-      <JFXButton buttonType="RAISED" layoutX="529.0" layoutY="285.0" prefHeight="31.0" prefWidth="59.0" text="Add">
+      <JFXButton buttonType="RAISED" layoutX="518.0" layoutY="285.0" onAction="#btnAddOnAction" prefHeight="39.0" prefWidth="118.0" style="-fx-background-color: green;" text="Add">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </JFXButton>
-      <Label layoutX="650.0" layoutY="283.0" prefHeight="42.0" prefWidth="135.0" style="-fx-background-color: #0652DD;" />
-      <JFXButton buttonType="RAISED" layoutX="682.0" layoutY="283.0" prefHeight="31.0" prefWidth="86.0" text="Update">
+      <JFXButton buttonType="RAISED" layoutX="666.0" layoutY="284.0" onAction="#btnUpdateOnAction" prefHeight="39.0" prefWidth="118.0" style="-fx-background-color: red;" text="Update">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </JFXButton>
-      <Label layoutX="808.0" layoutY="282.0" prefHeight="42.0" prefWidth="135.0" style="-fx-background-color: #EA2027;" />
-      <JFXButton buttonType="RAISED" layoutX="832.0" layoutY="284.0" prefHeight="39.0" prefWidth="97.0" text="Remove">
+      <JFXButton buttonType="RAISED" layoutX="822.0" layoutY="284.0" onAction="#btnRemoveOnAction" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: blue;" text="Remove">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </JFXButton>
-      <JFXTextField fx:id="txtAddress" layoutX="405.0" layoutY="179.0" prefHeight="31.0" prefWidth="225.0" promptText="Contact" text="Address" />
-      <JFXTextField fx:id="txtNic" layoutX="725.0" layoutY="179.0" prefHeight="31.0" prefWidth="225.0" promptText="Contact" text="NIC" />
-      <JFXTextField fx:id="txtId" layoutX="70.0" layoutY="101.0" prefHeight="31.0" prefWidth="225.0" promptText="Name" text="Student Id" />
-      <JFXTextField layoutX="75.0" layoutY="282.0" prefHeight="31.0" prefWidth="235.0" promptText="Search" style="-fx-background-color: yellow;" />
+      <JFXTextField fx:id="txtAddress" layoutX="405.0" layoutY="179.0" prefHeight="31.0" prefWidth="225.0" promptText="Address" />
+      <JFXTextField fx:id="txtNic" layoutX="725.0" layoutY="179.0" prefHeight="31.0" prefWidth="225.0" promptText="NIC" />
+      <JFXTextField fx:id="txtId" layoutX="70.0" layoutY="101.0" prefHeight="31.0" prefWidth="225.0" promptText="Student Id" />
+      <JFXTextField fx:id="txtSearch" layoutX="75.0" layoutY="282.0" prefHeight="31.0" prefWidth="235.0" promptText="Search" style="-fx-background-color: yellow;" />
    </children>
 </AnchorPane>
